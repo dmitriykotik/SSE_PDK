@@ -1,0 +1,863 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\PDK">
+      <UniqueIdentifier>{39bd7842-c77b-44bf-ab53-dd71a04f4e28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PDK\OSW">
+      <UniqueIdentifier>{3cc97651-e624-4a09-a611-2fe739c1dc6b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\ISSeCrypto.h">
+      <Filter>Header Files\PDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\ISSeImage.h">
+      <Filter>Header Files\PDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\ISSeInternal.h">
+      <Filter>Header Files\PDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\ISSeNetworking.h">
+      <Filter>Header Files\PDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\ISSeOverlay.h">
+      <Filter>Header Files\PDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\ISSePlayerManagement.h">
+      <Filter>Header Files\PDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\ISSeSettings.h">
+      <Filter>Header Files\PDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\ISSeUtils.h">
+      <Filter>Header Files\PDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\SSE_Callback.h">
+      <Filter>Header Files\PDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\SSE_PDK.h">
+      <Filter>Header Files\PDK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\AppListCommon.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\AppsCommon.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\AppTicketCommon.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\BillingCommon.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\BridgeCommon.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\CCallback.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\CGameID.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ClientCommon.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ContentServerCommon.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ControllerCommon.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\CSteamAPIContext.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\CSteamID.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ECurrencyCode.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\EResult.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ESteamAppUpdateStatsQueryType.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ESteamBufferMethod.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ESteamError.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ESteamFindFilter.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ESteamNotify.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ESteamPaymentCardType.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ESteamSeekMethod.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ESteamServerType.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ESteamSubscriptionBillingInfoType.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ESteamSubscriptionStatus.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\EVoiceResult.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\FriendGameInfo.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\FriendsCommon.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\GameCoordinatorCommon.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\GameServerCommon.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\gameserveritem.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\GameServerStatsCommon.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\GameStatsCommon.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\HTMLSurfaceCommon.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\HTTPCommon.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\IClientAppManager.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\IClientApps.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\IClientAudio.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\IClientBilling.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\IClientConfigStore.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\IClientContentServer.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\IClientDepotBuilder.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\IClientDeviceAuth.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\IClientEngine.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\IClientFriends.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\IClientGameCoordinator.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\IClientGameServer.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\IClientGameServerStats.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\IClientGameStats.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\IClientHTTP.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\IClientMasterServerUpdater.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\IClientMatchmaking.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\IClientMatchmakingServers.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\IClientNetworkDeviceManager.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\IClientNetworking.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\IClientRemoteStorage.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\IClientScreenshots.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\IClientStreamLauncher.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\IClientUnifiedMessages.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\IClientUser.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\IClientUserStats.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\IClientUtils.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\Interface_OSW.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\InventoryCommon.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteam2Bridge001.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteam2Bridge002.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteam003.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteam004.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteam005.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteam006.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamAppList001.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamApps001.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamApps002.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamApps003.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamApps004.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamApps005.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamApps006.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamApps007.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamApps008.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamAppTicket001.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamBilling001.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamBilling002.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamClient006.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamClient007.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamClient008.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamClient009.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamClient010.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamClient011.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamClient012.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamClient014.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamClient015.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamClient016.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamClient017.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamContentServer001.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamContentServer002.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamController001.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamController003.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamFriends001.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamFriends002.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamFriends003.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamFriends004.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamFriends005.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamFriends006.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamFriends007.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamFriends008.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamFriends009.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamFriends010.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamFriends011.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamFriends012.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamFriends013.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamFriends014.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamFriends015.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamGameCoordinator001.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamGameServer002.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamGameServer003.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamGameServer004.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamGameServer005.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamGameServer006.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamGameServer007.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamGameServer008.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamGameServer009.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamGameServer010.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamGameServer011.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamGameServer012.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamGameServerStats001.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamGameStats001.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamHTMLSurface002.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamHTMLSurface003.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamHTTP001.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamHTTP002.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamInventory001.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamMasterServerUpdater001.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamMatchmaking001.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamMatchmaking002.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamMatchmaking003.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamMatchmaking004.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamMatchmaking005.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamMatchmaking006.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamMatchmaking007.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamMatchmaking008.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamMatchmaking009.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamMatchmakingServers001.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamMatchmakingServers002.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamMusic001.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamMusicRemote001.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamNetworking001.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamNetworking002.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamNetworking003.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamNetworking004.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamNetworking005.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamOAuth001.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamRemoteStorage001.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamRemoteStorage002.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamRemoteStorage003.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamRemoteStorage004.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamRemoteStorage005.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamRemoteStorage006.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamRemoteStorage007.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamRemoteStorage008.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamRemoteStorage009.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamRemoteStorage010.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamRemoteStorage011.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamRemoteStorage012.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamRemoteStorage013.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamScreenshots001.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamScreenshots002.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamStreamLauncher001.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamUGC001.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamUGC002.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamUGC003.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamUGC004.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamUGC005.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamUGC007.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamUGC008.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamUnifiedMessages001.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamUser004.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamUser005.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamUser006.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamUser007.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamUser008.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamUser009.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamUser010.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamUser011.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamUser012.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamUser013.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamUser014.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamUser015.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamUser016.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamUser017.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamUser018.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamUser019.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamUserStats001.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamUserStats002.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamUserStats003.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamUserStats004.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamUserStats005.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamUserStats006.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamUserStats007.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamUserStats008.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamUserStats009.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamUserStats010.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamUserStats011.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamUtils001.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamUtils002.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamUtils003.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamUtils004.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamUtils005.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamUtils006.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamUtils007.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamUtils008.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ISteamVideo001.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\MasterServerUpdaterCommon.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\MatchmakingCommon.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\MatchMakingKeyValuePair.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\MatchmakingServersCommon.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\MusicCommon.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\MusicRemoteCommon.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\NetworkingCommon.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\OAuthCommon.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\POSIXLibrary.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\RemoteStorageCommon.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\ScreenshotsCommon.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\servernetadr.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\Steam.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\SteamAPI.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\Steamclient.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\SteamclientAPI.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\SteamSalt.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\SteamTypes.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\Steamworks.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\StreamLauncherCommon.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\TSteamApp.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\TSteamAppDependencyInfo.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\TSteamAppLaunchOption.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\TSteamAppStats.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\TSteamAppVersion.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\TSteamDiscountQualifier.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\TSteamElemInfo.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\TSteamError.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\TSteamExternalBillingInfo.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\TSteamGlobalUserID.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\TSteamOfflineStatus.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\TSteamPaymentCardInfo.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\TSteamPaymentCardReceiptInfo.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\TSteamPrepurchaseInfo.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\TSteamPrepurchaseReceiptInfo.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\TSteamProgress.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\TSteamSplitLocalUserID.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\TSteamSubscription.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\TSteamSubscriptionBillingInfo.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\TSteamSubscriptionDiscount.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\TSteamSubscriptionReceipt.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\TSteamSubscriptionStats.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\TSteamUpdateStats.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\UGCCommon.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\UnifiedMessagesCommon.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\UserCommon.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\UserStatsCommon.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\UtilsCommon.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\VideoCommon.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SSE_PDK\OSW\Win32Library.h">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </ClInclude>
+    <ClInclude Include="SSEFirewall.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SSEFirewall.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\SSE_PDK\OSW\Open Steamworks.vcproj">
+      <Filter>Header Files\PDK\OSW</Filter>
+    </None>
+  </ItemGroup>
+</Project>
